@@ -1,2 +1,10 @@
-# Neuromod: xxxx subdataset
+# CNeuromod: [xxxx subdataset](https://github.com/courtois-neuromod/xxxxx)
 
+This BIDS dataset is part of the [Courtois-Neuromod dataset](https://docs.cneuromod.ca/).
+
+This subdataset contains functional MRI data collected with xxxxx task.
+
+It contains:
+- raw neuroimaging data in BIDS format
+- behavioral variables
+- physiological data
