@@ -17,7 +17,7 @@ body:
       options:
         - label: biopac
         - label: sensimetrics
-	- label: eyetracker
+        - label: eyetracker
         - label: game controller
 
 - type: textarea
