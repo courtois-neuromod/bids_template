@@ -1,6 +1,6 @@
 name: Scan session
 description: log session
-title: "[SCAN]: sub-xx_ses-yyy"
+title: "[SCAN] sub-xx_ses-yyy"
 labels: [scan]
 assignees: 
   - bpinsard
@@ -45,7 +45,7 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-stars_run-01 notes
+    label: task-mariostars_run-01 notes
 
 - type: markdown
   attributes:
@@ -67,7 +67,7 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-stars_run-02 notes
+    label: task-mariostars_run-02 notes
 
 
 
@@ -91,7 +91,7 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-stars_run-03 notes
+    label: task-mariostars_run-03 notes
 
 - type: markdown
   attributes:
@@ -113,7 +113,7 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-stars_run-04 notes
+    label: task-mariostars_run-04 notes
 
 - type: markdown
   attributes:
@@ -135,4 +135,4 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-stars_run-05 notes
+    label: task-mariostars_run-05 notes
