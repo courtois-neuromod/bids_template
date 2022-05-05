@@ -15,15 +15,14 @@ body:
       label: Setup
       description: check all the equipment that was set up
       options:
-        - label: BIOPAC
+        - label: biopac
         - label: sensimetrics
 	- label: eyetracker
         - label: game controller
-	
+
 - type: textarea
   attributes:
     label: general notes
-
 
 
 - type: markdown
