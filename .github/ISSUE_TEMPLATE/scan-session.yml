@@ -1,10 +1,30 @@
 name: Scan session
 description: log session
-title: "[SCAN]: ses-xxx"
+title: "[SCAN]: sub-xx_ses-yyy"
 labels: [scan]
 assignees: 
   - bpinsard
 body:
+- type: markdown
+  attributes:
+    value: "# general infos"
+
+- type: checkboxes
+    id: terms
+    attributes:
+      label: Setup
+      description: check all the equipment that was set up
+      options:
+        - label: biopac
+        - label: sensimetrics
+	- label: eyetracker
+        - label: game controller
+
+- type: textarea
+  attributes:
+    label: general notes
+
+
 - type: markdown
   attributes:
     value: "## task-mariostars_run-01"
@@ -23,7 +43,7 @@ body:
       - eyetracking issues (crash, pupil loss)
       - physio signal quality issue
       - controller issues
-- type: input
+- type: textarea
   attributes:
     label: task-stars_run-01 notes
 
@@ -45,7 +65,7 @@ body:
       - eyetracking issues (crash, pupil loss)
       - physio signal quality issue
       - controller issues
-- type: input
+- type: textarea
   attributes:
     label: task-stars_run-02 notes
 
@@ -69,7 +89,7 @@ body:
       - eyetracking issues (crash, pupil loss)
       - physio signal quality issue
       - controller issues
-- type: input
+- type: textarea
   attributes:
     label: task-stars_run-03 notes
 
@@ -91,7 +111,7 @@ body:
       - eyetracking issues (crash, pupil loss)
       - physio signal quality issue
       - controller issues
-- type: input
+- type: textarea
   attributes:
     label: task-stars_run-04 notes
 
@@ -113,6 +133,6 @@ body:
       - eyetracking issues (crash, pupil loss)
       - physio signal quality issue
       - controller issues
-- type: input
+- type: textarea
   attributes:
     label: task-stars_run-05 notes
