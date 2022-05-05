@@ -10,15 +10,15 @@ body:
     value: "# general infos"
 
 - type: checkboxes
-    id: terms
-    attributes:
-      label: Setup
-      description: check all the equipment that was set up
-      options:
-        - label: biopac
-        - label: sensimetrics
-        - label: eyetracker
-        - label: game controller
+  id: setup
+  attributes:
+    label: Setup
+    description: check all the equipment that was set up
+    options:
+      - label: biopac
+      - label: sensimetrics
+      - label: eyetracker
+      - label: game controller
 
 - type: textarea
   attributes:
